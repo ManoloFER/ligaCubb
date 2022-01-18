@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     font-family: 'Mukta', sans-serif;
@@ -7,10 +7,6 @@
     list-style: none;
     color: #222831;
 }
-
-/* body {
-    background-image: url("../media/predio.png");
-} */
 
 body {
     background: rgb(240, 84, 84);
@@ -35,8 +31,8 @@ footer i {
     color: #DDDDDD;
 }
 
-/* GRID index*/
-
+/* GRID index */
+/* 
 .containerIndex {
     display: grid;
     height: 100vh;
@@ -73,7 +69,6 @@ footer i {
     grid-area: sectionResultados;
     overflow: scroll;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -84,7 +79,6 @@ footer i {
     grid-area: sectionNoticias;
     padding: 0 1rem;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -96,7 +90,6 @@ footer i {
     padding: 0 1rem;
     overflow: scroll;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -118,32 +111,31 @@ footer i {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #222831; */
-}
+} */
 
 /* ajustes grid */
 
-div div {
+/* div div {
     margin: 0.3rem;
 }
 
 .section__parrafo {
     text-align: center;
-}
+} */
 
 
 /* TEXTO HEADER */
-
+/* 
 .header h1 {
     line-height: 2rem;
     margin-left: 1rem;
     font-size: 2rem;
     font-weight: 600;
-}
+} */
 
 /* SUB MENU */
 
-.submenu {
+/* .submenu {
     display: block;
 }
 
@@ -181,11 +173,11 @@ ul li:hover ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 /* GRID categorias */
 
-.containerCategoria {
+/* .containerCategoria {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -205,7 +197,6 @@ ul li:hover ul {
     overflow: scroll;
     padding: 0 1rem;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -217,7 +208,6 @@ ul li:hover ul {
     overflow: scroll;
     padding: 0 1rem;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -229,7 +219,6 @@ ul li:hover ul {
     overflow: scroll;
     padding: 0 1rem;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -242,7 +231,6 @@ ul li:hover ul {
     overflow: scroll;
     padding: 0 1rem;
     background-color: #F05454;
-    /* border: 1px solid black; */
     border-radius: 15px;
     box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
     -webkit-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
@@ -256,13 +244,13 @@ ul li:hover ul {
     display: flex;
     flex-direction: column;
     overflow: scroll;
-}
+} */
 
 /* media queries */
 
 /* tamaño mediano INDEX*/
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .containerIndex {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -364,11 +352,11 @@ ul li:hover ul {
         grid-area: footer;
     }
 
-}
+} */
 
 /* tamaño pequeño */
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
     .containerIndex {
         display: grid;
         height: 250vh;
@@ -470,4 +458,4 @@ ul li:hover ul {
         display: none;
     }
 
-}
+} */
