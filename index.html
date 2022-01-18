@@ -20,29 +20,52 @@
 </head>
 
 <body>
-    <div class="containerIndex">
-        <header class="header">
-            <a href="index.html"><img src="./media/logo-cubb.png" alt="logoCubb"></a>
-            <h1>LIGA UNIVERSITARIA DE FUTBOL</h1>
+    <div class="container">
+        <header class="container col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <div class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="media/logo-cubb.png" alt="" width="30"
+                                    class="d-inline-block align-text-center">
+                                LIGA UNIVERSITARIA DE FUTBOL
+                            </a>
+                        </div>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contacto.html">Juga con nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorias
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Masculino A</a></li>
+                                    <li><a class="dropdown-item" href="#">Masculino B</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Femenino A</a></li>
+                                    <li><a class="dropdown-item" href="#">Femenino B</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
-        <nav class="nav">
-            <ul>
-                <li class="submenu">
-                    <h3 class="submenu__button">MASCULINO</h3>
-                    <ul>
-                        <li><a href="aMasculino.html">A</a></li>
-                        <li><a href="bMasculino.html">B</a></li>
-                    </ul>
-                </li>
-                <li class="submenu">
-                    <h3 class="submenu__button">FEMENINO</h3>
-                    <ul>
-                        <li><a href="aFemenino.html">A</a></li>
-                        <li><a href="bFemenino.html">B</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
         <div class="sectionResultados">
             <h4>Resultados</h4>
             <p class="section__parrafo">
