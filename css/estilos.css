@@ -28,6 +28,15 @@ body {
     -moz-box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.68);
 }
 
+.body_contacto{
+    height: 100vh;
+}
+
+.contacto {
+    margin: 10rem;
+    height: 40vh;
+}
+
 /*
 body {
     background: rgb(240, 84, 84);
