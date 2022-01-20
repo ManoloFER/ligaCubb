@@ -37,6 +37,9 @@ body {
     height: 40vh;
 }
 
+.div_info {
+    width: 100%;
+}
 /*
 body {
     background: rgb(240, 84, 84);
