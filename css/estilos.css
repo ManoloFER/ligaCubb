@@ -5,7 +5,7 @@
 }
 
 .h2_noticias {
-    margin: 3rem 0;
+    margin: 3rem 0 1rem 0;
 }
 
 .galeria {
@@ -39,6 +39,14 @@ body {
 
 .div_info {
     width: 100%;
+}
+
+.div_noticias {
+    width: 100%;
+}
+
+.div_noticias div {
+    margin: 2rem;
 }
 /*
 body {
