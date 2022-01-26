@@ -32,8 +32,8 @@
 
     .noticias {
         margin: 2rem;
-        -webkit-box-shadow: 10px 10px 5px 1px $gris;
-        -moz-box-shadow: 10px 10px 5px 1px $gris;
+        box-shadow: 10px 10px 5px 1px $gris;
+        box-shadow: 10px 10px 5px 1px $gris;
     }
 }
 

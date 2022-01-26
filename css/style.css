@@ -62,8 +62,8 @@ header h1 {
   width: 100%; }
   .div_noticias .noticias {
     margin: 2rem;
-    -webkit-box-shadow: 10px 10px 5px 1px #9d9392;
-    -moz-box-shadow: 10px 10px 5px 1px #9d9392; }
+    box-shadow: 10px 10px 5px 1px #9d9392;
+    box-shadow: 10px 10px 5px 1px #9d9392; }
 
 .galeria {
   margin-top: 5rem; }
