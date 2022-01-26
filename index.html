@@ -11,7 +11,7 @@
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- FONTAWASOME -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -26,12 +26,12 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div class="col-8 navbar navbar-light bg-light">
-                        <div class="container-fluid">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="media/logo-cubb.png" alt="" width="30"
+                        <div class="container-fluid d-flex justify-content-start align-items-center">
+                            <a class="d-flex navbar-brand" href="index.html">
+                                <img src="media/logo-cubb.png" alt="" width="50"
                                     class="d-inline-block align-text-center">
-                                LIGA UNIVERSITARIA DE FUTBOL
                             </a>
+                            <h1>LIGA UNIVERSITARIA DE FUTBOL</h1>
                         </div>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,8 +69,8 @@
         </header>
         <main class="container-fluid">
             <!-- resultados y proxima fecha -->
-            <div class="div_info row accordion accordion" id="accordionFlushExample">
-                <div class="col-md-6 accordion-item">
+            <div class="resultados row accordion accordion" id="accordionFlushExample">
+                <div class="resultados_accordion col-md-6 accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 accordion-item">
+                <div class="resultados_accordion col-md-6 accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -129,9 +129,56 @@
                     </div>
                 </div>
             </div>
+            <!-- futuro cambio -->
+            <!-- <div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Resultados</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Proxima fecha</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <strong>Fecha 11</strong><br>
+                        Vélez 4 - 0 Unión<br>
+                        Estudiantes 1 - 1 Argentinos<br>
+                        Godoy Cruz 4 - 0 Gimnasia<br>
+                        River 1 - 1 Independiente<br>
+                        Rosario Central 1-2 Boca<br>
+                        Lanús 1 - 1 Sarmiento<br>
+                        Colón 1 - 1 Newell's<br>
+                        Defensa y Justicia 1 - 1 Central Córdoba<br>
+                        Vélez 4 - 0 Unión<br>
+                        Estudiantes 1 - 1 Argentinos<br>
+                        Godoy Cruz 4 - 0 Gimnasia<br>
+                        River 1 - 1 Independiente<br>
+                        Rosario Central 1 - 2 Boca<br>
+                        Lanús 1 - 1 Sarmiento<br>
+                        Colón 1 - 1 Newell's<br>
+                        Defensa y Justicia 1 - 1 Central Córdoba<br></div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <strong>Fecha 12</strong><br>
+                        <b>Viernes 10 de diciembre</b><br>
+                        Platense - Vélez<br>
+                        Estudiantes - Aldosivi<br>
+                        <b>Sábado 11 de diciembre</b><br>
+                        Unión - Colón<br>
+                        Rosario Central - Huracán<br>
+                        Racing - Godoy Cruz<br>
+                        Patronato - Gimnasia<br>
+                        Argentinos - Sarmiento<br>
+                        Atlético Tucumán - River<br>
+                        Boca - Central Córdoba<br>
+                        <b>Domingo 12 de diciembre</b><br>
+                        San Lorenzo - Newell’s<br>
+                        Defensa y Justicia - Lanús<br></div>
+                  </div>
+            </div> -->
             <!-- noticias -->
             <h2 class="h2_noticias fs-2 font-monospace text-center">Noticias</h2>
-            <div class="row div_noticias row d-flex justify-content-evenly">
+            <div class="div_noticias row row d-flex justify-content-evenly">
                 <div class="col-4 noticias card" style="width: 18rem;">
                     <img src="./media/galeria/a.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">

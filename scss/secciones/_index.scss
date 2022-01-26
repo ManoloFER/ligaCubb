@@ -1,0 +1,26 @@
+* {
+    font-family: $nunito;
+    text-decoration: none;
+    list-style: none;
+    color: $negro;
+}
+
+// fondo
+
+body {
+    background: rgb(206, 47, 28);
+    background: linear-gradient(0deg, rgba(206, 47, 28, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+// botones
+
+.btn-danger {
+    color: $gris-claro;
+    background-color: $rojo;
+    border-color: $rojo;
+}
+
+.btn-outline-danger {
+    color: $rojo;
+    border-color: $rojo;
+}

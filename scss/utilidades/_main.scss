@@ -1,0 +1,48 @@
+// accordion
+
+.accordion-button:not(.collapsed) {
+    color: $rojo;
+    background-color: $blanco;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-item:first-of-type {
+    border-radius: 0.25rem;
+}
+
+.accordion-item:last-of-type {
+    border-radius: 0.25rem;
+}
+
+// noticias
+
+.h2_noticias {
+    margin: 3rem 0 1rem 0;
+    color: $negro;
+}
+
+.div_noticias {
+    width: 100%;
+
+    .noticias {
+        margin: 2rem;
+        -webkit-box-shadow: 10px 10px 5px 1px $gris;
+        -moz-box-shadow: 10px 10px 5px 1px $gris;
+    }
+}
+
+// galeria
+
+.galeria {
+    margin-top: 5rem;
+    img {
+        width: 100%;
+        height: 100%;
+    };
+}
