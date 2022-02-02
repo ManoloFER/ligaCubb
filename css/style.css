@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+p, .p_section {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+  line-height: 1; }
+
+.noticia_titulo {
+  color: #101010; }
+
+.noticia_parrafo {
+  color: #9d9392; }
+
 * {
   font-family: "Nunito", sans-serif;
   text-decoration: none;
@@ -22,7 +33,7 @@ body {
   height: 100vh; }
   .body_contacto .body_contacto-format {
     height: 100%; }
-    .body_contacto .body_contacto-format h2 {
+    .body_contacto .body_contacto-format .h3_contacto {
       margin-bottom: 3rem; }
     .body_contacto .body_contacto-format .explicacion {
       margin: 2rem; }
@@ -33,7 +44,7 @@ body {
   background-color: #c26659;
   border-color: #ce2f1c; }
 
-header h1 {
+header h1, header h2 {
   color: #101010;
   font-size: 1.7rem;
   margin: 0; }
@@ -54,7 +65,7 @@ header h1 {
 .accordion-item:last-of-type {
   border-radius: 0.25rem; }
 
-.h2_noticias {
+.h3_noticias {
   margin: 3rem 0 1rem 0;
   color: #101010; }
 
@@ -70,6 +81,14 @@ header h1 {
   .galeria img {
     width: 100%;
     height: 100%; }
+
+.p_section {
+  color: #9d9392; }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: underline; }
 
 .border-top {
   border-top: 1px solid #f1f0ee !important; }

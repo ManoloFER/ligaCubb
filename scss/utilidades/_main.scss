@@ -46,3 +46,20 @@
         height: 100%;
     };
 }
+
+// estilos parrafo
+
+p {
+    @extend %estilosParrafo;
+}
+
+.p_section {
+    @extend %estilosParrafo;
+    color: $gris;
+}
+
+// H3 mixin
+
+h3 {
+    @include fontStyle (1.5rem, 400);
+}
