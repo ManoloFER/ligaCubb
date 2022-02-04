@@ -1,0 +1,12 @@
+// maps
+
+$textoNoticias: (
+    noticia_titulo: $negro,
+    noticia_parrafo: $gris,
+);
+
+@each $notas, $color in $textoNoticias {
+    .#{$notas}{
+        color: $color;
+    }
+}
