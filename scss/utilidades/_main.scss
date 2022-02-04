@@ -32,9 +32,13 @@
 
     .noticias {
         margin: 2rem;
-        box-shadow: 10px 10px 5px 1px $gris;
-        box-shadow: 10px 10px 5px 1px $gris;
     }
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
 }
 
 // galeria

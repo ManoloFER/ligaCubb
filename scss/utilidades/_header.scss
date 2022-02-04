@@ -5,3 +5,19 @@ header {
         margin: 0;
     }
 }
+
+@media (max-width: 960px) {
+    h1 {
+        display: none;
+    }
+}
+
+// colores navbar
+
+.navbar-light .navbar-nav .nav-link {
+    color: $gris;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: $rojo;
+}

@@ -1,9 +1,7 @@
 .body_contacto {
-    height: 100vh;
+    height: 100%;
 
     .body_contacto-format {
-        height: 100%;
-
         .h3_contacto {
             margin-bottom: 3rem;
         }
@@ -18,7 +16,11 @@
     }
 }
 
-
+.btn-danger {
+    color: $gris-claro;
+    background-color: none;
+    border-color: $rojo;
+}
 
 .form-check-input:checked {
     background-color: $rojizo;
