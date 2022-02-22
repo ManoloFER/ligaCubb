@@ -5,3 +5,15 @@
 .text-muted {
     color: $gris-claro!important;
 }
+
+footer {
+    p {
+        font-size: small;
+    }
+    div {
+        padding: 0.3rem 0;
+    }
+    ul {
+        padding: 0.3rem 0;
+    }
+}

@@ -32,11 +32,16 @@ body {
 .body_contacto {
   height: 100%; }
   .body_contacto .body_contacto-format .h3_contacto {
-    margin-bottom: 3rem; }
+    margin-bottom: 2rem;
+    font-size: 3rem; }
   .body_contacto .body_contacto-format .explicacion {
-    margin: 2rem; }
+    margin: 2rem 0rem; }
+    .body_contacto .body_contacto-format .explicacion li {
+      list-style: circle !important; }
+  .body_contacto .body_contacto-format .p-subtitulo {
+    font-size: 2rem; }
   .body_contacto .body_contacto-format .contacto {
-    margin: 5rem 0; }
+    margin: 1rem 0 5rem; }
 
 .btn-danger {
   color: #f1f0ee;
@@ -109,3 +114,12 @@ h3 {
 
 .text-muted {
   color: #f1f0ee !important; }
+
+footer p {
+  font-size: small; }
+
+footer div {
+  padding: 0.3rem 0; }
+
+footer ul {
+  padding: 0.3rem 0; }

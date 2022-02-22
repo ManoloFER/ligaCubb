@@ -3,15 +3,22 @@
 
     .body_contacto-format {
         .h3_contacto {
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
+            font-size: 3rem;
         }
+
 
         .explicacion {
-            margin: 2rem;
+            margin: 2rem 0rem;
+            li {
+                list-style: circle!important;
+            }
         }
-
+        .p-subtitulo {
+            font-size: 2rem;
+        }
         .contacto {
-            margin: 5rem 0;
+            margin: 1rem 0 5rem;
         }
     }
 }
